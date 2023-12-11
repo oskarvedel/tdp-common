@@ -106,14 +106,18 @@
 
 // function get_statistics_data_for_single_gd_place($gd_place_id)
 // {
-//     global $statistics_data_fields;
+    // global $statistics_data_fields;
 
-//     $return_array = [];
+    // $return_array = [];
 
-//     foreach ($statistics_data_fields as $field) {
-//         $value = get_post_meta($gd_place_id, $field, true);
-//         $return_array[$field] = $value;
-//     }
+    // foreach ($statistics_data_fields as $field) {
+    //     $value = get_post_meta($gd_place_id, $field, true);
+    //     $return_array[$field] = $value;
+    // }
 
-//     return $return_array;
+    // if (count(array_filter($return_array, function($value) { return $value !== ""; })) == 0) {
+    //     return false;
+    // } else {
+    //     return $return_array;
+    // }
 // }
